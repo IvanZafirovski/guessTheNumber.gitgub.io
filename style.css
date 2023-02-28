@@ -95,6 +95,42 @@ body {
   top: 65%;
   left: 65%;
 }
+@media only screen and (max-width: 480px) {
+  .again {
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+  }
+  .top-right {
+    left: 50%;
+    font-size: 12px;
+  }
+  .center h1 {
+    font-size: 20px;
+  }
+  .number {
+    font-size: 20px;
+  }
+  .guess {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+  }
+  .check {
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+  }
+  .message {
+    left: 45%;
+    font-size: 10px;
+  }
+  .scores {
+    left: 45%;
+    font-size: 10px;
+  }
+}
+
 @media only screen and (max-width: 320px) {
   .again {
     width: 100px;
